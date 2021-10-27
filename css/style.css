@@ -18,6 +18,12 @@
    Dark Blue Gray: #4C5270
    Black: #000000
    ========================================================================== */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 
 /* ==========================================================================
    Header Styles
@@ -31,7 +37,7 @@ header {
     flex-wrap: wrap;
 }
 
-header img {
+.logo {
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
@@ -68,7 +74,44 @@ header nav ul li a {
 
 .welcome {
     background-image: url(../images/header_img.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.headshot-1 img {
+    flex: 1;
+    border: 10px solid #128f8b;
+    border-radius: 50%;
+    max-width: 500px;
+    height: auto;
+    margin: 100px;
+}
+
+.welcome-text {
+    flex: 2;
+    margin: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+   
+.welcome-text h1 {
+    color: #128f8b;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;  
+}
+
+.welcome-text h2 {
+    color: #128f8b;
+    text-align: left;
+    font-family: 'Lora', serif;
+    font-size: 2em;
+}
+
 
 /* ==========================================================================
    Skills Styles
@@ -76,6 +119,27 @@ header nav ul li a {
    
 .skills {
     background-color: #88a9a2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skills img {
+    max-width: 250px;
+    flex: 0 1 auto;
+    justify-content: center;
+}
+
+.skills h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* ==========================================================================
@@ -84,6 +148,24 @@ header nav ul li a {
 
 .about {
     background-color: #FEFEFE;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 2;
+    margin: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.headshot-2 img {
+    flex: 1;
+    border: 10px solid #128f8b;
+    border-radius: 50%;
+    max-width: 500px;
+    height: auto;
+    margin: 100px;
 }
 
 /* ==========================================================================
@@ -92,6 +174,21 @@ header nav ul li a {
 
 .portfolio {
     background-color: #88a9a2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.portfolio img {
+    max-width: 250px;
+    flex: 0 1 auto;
+    justify-content: center;
+}
+
+.portfolio h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* ==========================================================================
@@ -99,7 +196,32 @@ header nav ul li a {
    ========================================================================== */   
 
 footer {
-    background-color: #f652a0;
+    background: #f652a0;
+    width: 100%;
+    padding: 40px 35px;
+    box-sizing: border-box;
+}
+footer h3 {
+    display: inline;
+    color: #000;
+    font-size: 26px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.social {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+.social ul li {
+    margin: 0;
+    display: inline;
+}
+
+.social a {
+    text-decoration: none;
 }
 
 /* ==========================================================================
