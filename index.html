@@ -5,24 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patty Manecci</title>
+    <!--CSS Links-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Font Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Header-->
     <header>
         <!--Logo-->
         <div class="logo">
-            <img />
+            <img src="./images/logo-black.png" alt="Patty Manecci Logo"/>
         </div>
         <!--Navigation-->
-        <div class="navigation">
-
-        </div>
+        <nav>
+            <ul style="list-style-type:none;">
+                <li>
+                    <a href="#welcome">Intro</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#footer">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <!--Welcome-->
     <div class="welcome" id="welcome">
         <!--Headshot-->
         <div class="headshot-1">
-            <img />
+            <img src="./images/headshot.jpg" alt="Patty Manecci Headshot 1"/>
         </div>
         <!--Message-->
         <div class="welcome-text">
@@ -35,19 +57,19 @@
     <div class="skills" id="skills">
         <!--Communication-->
         <div class="column">
-            <img />
+            <img src="./images/communication_icon.png" alt="Chat Bubbles Icon"/>
             <h2>Communication</h2>
             <p>More info / explanation about communication!</p>
         </div>
         <!--Coding-->
         <div class="column">
-            <img />
+            <img src="./images/coding_icon.png" alt="Coding Brackets Icon"/>
             <h2>Web Development</h2>
             <p>More info / explanation about web development!</p>
         </div>
         <!--Problem-Solving-->
         <div class="column">
-            <img />
+            <img src="./images/problemsolve_icon.png" alt="Puzzle Piece Icon"/>
             <h2>Problem Solving</h2>
             <p>More info / explanation about problem solving!</p>
         </div>
@@ -60,11 +82,11 @@
         <button>Resume</button>
         <!--Headshot-->
         <div class="headshot-2">
-            <img />
+            <img src="./images/about_photo.jpeg" alt="Patty Manecci Headshot 2"/>
         </div>
     </div>
     <!--Portfolio-->
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <!--Project1-->
         <div class="column">
             <img />
@@ -85,14 +107,27 @@
         </div>
     </div>
     <!--Footer-->
-    <footer>
+    <footer id="footer">
         <!--Message-->
         <div class="footer-text">
         <h3>Designed & Developed by Patty Manecci</h3>
         </div>
         <!--Social Links-->
         <div class="social">
-            
+            <ul style="list-style-type:none;">
+                <li>
+                     <a href="https://github.com/PManecci" target="_blank"><img alt="github logo" src="./images/github_black.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/pmanecci/" target="_blank"><img alt="linkedin logo" src="./images/linkedin_black.png"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/PattyManecci" target="_blank"><img alt="twitter logo" src="./images/twitter_black.png"></a>
+                </li>
+                <li>
+                    <a href="mailto:pmanecci@gmail.com?" target="_blank"><img alt="email icon" src="./images/email_black.png"></a>
+                </li>
+            </ul>
         </div>
     </footer>
 </body>
