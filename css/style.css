@@ -18,12 +18,12 @@
    Dark Blue Gray: #4C5270
    Black: #000000
    ========================================================================== */
+
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-
 
 /* ==========================================================================
    Header Styles
@@ -76,6 +76,7 @@ header nav ul li a {
     background-image: url(../images/header_img.png);
     background-size: cover;
     background-position: center;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -123,6 +124,7 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    min-height: 600px;
 }
 
 .skills img {
@@ -150,6 +152,7 @@ header nav ul li a {
     background-color: #FEFEFE;
     display: flex;
     flex-wrap: wrap;
+    min-height: 600px;
 }
 
 .about-text {
@@ -178,6 +181,7 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    min-height: 600px;
 }
 
 .portfolio img {
