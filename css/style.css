@@ -169,11 +169,27 @@ header nav ul li a {
     min-height: 800px;
 }
 
+.about h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #128f8b;
+    font-size: 3em;
+}
+
 .about-text {
-    flex: 2;
-    margin: 5%;
-    justify-content: center;
-    align-items: center;
+    flex: 3;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.about-text p {
+    padding-left: 10%;
+}
+
+.about button {
+    background-color: #128f8b;
+    padding: 3px;
+    border: 1px solid #128f8b;
+    color: #FEFEFE;
 }
 
 .headshot-2 img {
@@ -199,9 +215,14 @@ header nav ul li a {
 }
 
 .portfolio img {
+    display: block;
     max-width: 250px;
-    flex: 0 1 auto;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-text {
+    text-align: center;
 }
 
 .portfolio h2 {
