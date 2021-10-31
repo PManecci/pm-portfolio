@@ -9,7 +9,7 @@ My very first attempt at Full Design and Development of a Professional Portfolio
   - Starting with just the basic HTML5 Boilerplate coded each piece of HTML & CSS on my own utilizing the lessons/knowledge from the first modules in the UCF Coding Bootcamp Program
   - Added in Navigation Links and Social Media Links as well as a Button to my updated Resume
   
-## Insltallation
+## Installation
 
 Currently only published through Github but will continue to update and enhance with new skills and projects/applications developed throughout the bootcamp
   
@@ -19,3 +19,8 @@ Currently only published through Github but will continue to update and enhance 
 ## Usage
   
 Purpose of site is to provide potential employers a one-stop site to view my work and resume when looking for a Full-Time job in Web Development
+
+## Credits
+
+  -UCF Coding Bootcamp
+  -Skillcrush Front-End Developer Courses
